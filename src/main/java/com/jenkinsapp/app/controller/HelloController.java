@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     //Este es un nuevo comentario
-    //Agregamos algo nuevo 2.o 
+    //Agregamos algo nuevo 2.0 
     @GetMapping("/hello")
     public String saludar(){
         return "Hola Mundo con REST en Spring Boot";
